@@ -1,0 +1,57 @@
+<!doctype html>
+<label>Email<input type="email" name="email" required></label>
+<label>Password<input type="password" name="password" required></label>
+<div class="form-actions">
+<button class="btn btn-primary" type="submit">Log in</button>
+<a href="#signup" class="btn btn-outline">Create account</a>
+</div>
+</form>
+<div id="login-msg" class="status"></div>
+</section>
+
+
+<section id="signup" class="page container">
+<h2>Create an Account</h2>
+<form id="signup-form" class="form">
+<label>Full name<input type="text" name="name" required></label>
+<label>Email<input type="email" name="email" required></label>
+<label>Password<input type="password" name="password" minlength="6" required></label>
+<div class="form-actions">
+<button class="btn btn-primary" type="submit">Sign up</button>
+<a href="#login" class="btn btn-outline">Have an account?</a>
+</div>
+</form>
+<div id="signup-msg" class="status"></div>
+</section>
+
+
+<section id="dashboard" class="page container">
+<h2>Patient Portal</h2>
+<div id="user-welcome" class="card">
+<h3>Welcome</h3>
+<p id="welcome-text"></p>
+<div class="dashboard-actions">
+<a href="#ambulance" class="btn btn-primary">Book Ambulance</a>
+<a href="#appointments" class="btn btn-outline">My Appointments</a>
+<button id="logout-btn" class="btn btn-danger">Log out</button>
+</div>
+</div>
+
+
+<div id="appointments" class="card">
+<h3>Appointments</h3>
+<p>No upcoming appointments.</p>
+</div>
+</section>
+
+
+<footer class="site-footer">
+<div class="container">
+<p>© CityCare Hospital. All rights reserved.</p>
+<p>Address: 123 Health Ave • Phone: +254 700 000000 • Email: info@citycare.example</p>
+</div>
+</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

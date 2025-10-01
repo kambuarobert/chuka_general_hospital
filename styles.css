@@ -1,0 +1,15 @@
+:root{
+.form-row{display:flex;gap:12px}
+.form-row label{flex:1;display:flex;flex-direction:column;gap:8px}
+label{font-size:0.95rem}
+input,textarea,select{padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);background:transparent;color:var(--text)}
+.form-actions{display:flex;gap:12px;align-items:center}
+.status{margin-top:12px;color:var(--muted)}
+.site-footer{padding:20px 0;border-top:1px solid rgba(0,0,0,0.06);margin-top:40px}
+.card{background:var(--surface);padding:16px;border-radius:12px}
+.dashboard-actions{display:flex;gap:12px;margin-top:12px}
+@media(max-width:800px){
+.hero{flex-direction:column}
+.nav{display:none;position:absolute;top:64px;right:16px;background:var(--surface);padding:12px;border-radius:10px;flex-direction:column}
+.hamburger{display:block}
+}
